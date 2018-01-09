@@ -20,7 +20,10 @@ Vue.component('gallery__item', {
       this.$emit('uncheck')
     },
     delete1: function (id) {
-      this.checked = false;
+      if (this.checked == true) {
+        this.checked = false;
+        this.$emit('uncheck')
+      }
       Vue.delete(this.$root.$data.db, id);
     },
     thissure: function () {
