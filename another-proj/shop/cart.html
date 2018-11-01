@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Корзина</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="HandheldFriendly" content="true">
+
+    <!--[if (gt IE 9)|!(IE)]><!-->
+    <link href="static/css/main.min.css" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script>
+        (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-top header__header-top">
+            <div class="wrapper">
+                <div class="header-menu">
+                    <div class="header-menu__point">
+                        <a class="header-menu__link" href="javascript:void(0)">О магазине</a>
+                        <div class="popup-list header-menu__popup-list">
+                            <a class="popup-list__point" href="javascript:void(0)">О магазине</a>
+                            <a class="popup-list__point" href="javascript:void(0)">О компании</a>
+                        </div>
+                    </div>
+                    <div class="header-menu__point">
+                        <a class="header-menu__link" href="javascript:void(0)">Как заказать</a>
+                    </div>
+                    <div class="header-menu__point">
+                        <a class="header-menu__link" href="javascript:void(0)">Контакты</a>
+                    </div>
+                </div>
+                <a class="header-top__logo" href="javascript:void(0)">zprus.ru</a>
+                <form class="search-field" action="#" method="POST">
+                    <input class="search-field__input" type="text" placeholder="Шины для Audi" />
+                    <input type="submit" />
+                    <div class="search-field__submit-img">
+                    </div>
+                </form>
+                <div class="header-top__search-btn">
+                </div>
+                <div class="header-item header-item_card header-top__cart header-item header-item_cart-top">
+                    <div class="logo-icon logo-icon_card header-item__logo header-item__logo_card">
+                        <img class="logo-icon__img" src="static/img/assets/logo-icon/card-icon.png" alt="card" width="14" height="14"
+                        title="" />
+                        <img class="logo-icon__img-active" src="static/img/assets/logo-icon/card-icon-active.png" alt="card"
+                        width="14" height="14" title="" />
+                    </div>
+                    <div class="header-item__right-block">
+                        <div class="header-item__title header-item__title_card">
+                            <div class="header-item__count-products">4
+                            </div>
+                        </div>
+                        <div class="header-item__text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-mid">
+            <div class="wrapper">
+                <div class="logo-block header-mid__logo-block">
+                    <a class="logo-block__logo" href="javascript:void(0)">zprus.ru</a>
+                    <div class="logo-block__title">Интернет магазин автозапчастей. Оригинальные запчасти б/у для иномарок из Европы и России.
+                    </div>
+                </div>
+                <div class="header-items header-mid__header-items">
+                    <div class="header-item header-items__header-item">
+                        <div class="logo-icon">
+                            <img class="logo-icon__img" src="static/img/assets/logo-icon/clock-icon.png" alt="clock" width="14"
+                            height="14" title="" />
+                        </div>
+                        <div class="header-item__right-block">
+                            <div class="header-item__title">Ежедневно с 9.00 - 19.00
+                            </div>
+                            <div class="header-item__text">Московское время +2 часа
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-item header-items__header-item">
+                        <div class="logo-icon">
+                            <img class="logo-icon__img" src="static/img/assets/logo-icon/call-icon.png" alt="call" width="14"
+                            height="14" title="" />
+                        </div>
+                        <div class="header-item__right-block header-item__right-block_phone">
+                            <div class="header-item__title header-item__title_phone">+7 (351) 75-03-114
+                            </div>
+                            <a class="header-item__text header-item__text_phone" href="javascript:void(0)">Заказать звонок</a>
+                            <div class="header-item__fly-messengers">
+                                <div class="header-item__messenger header-item__messenger_viber">Viber
+                                </div>
+                                <div class="header-item__messenger header-item__messenger_whatsapp">Whatsapp
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-item header-item_card header-items__header-item">
+                        <div class="logo-icon logo-icon_card header-item__logo header-item__logo_card">
+                            <img class="logo-icon__img" src="static/img/assets/logo-icon/card-icon.png" alt="card" width="14"
+                            height="14" title="" />
+                            <img class="logo-icon__img-active" src="static/img/assets/logo-icon/card-icon-active.png" alt="card"
+                            width="14" height="14" title="" />
+                        </div>
+                        <div class="header-item__right-block">
+                            <div class="header-item__title header-item__title_card">Корзина
+                                <div class="header-item__count-products">4
+                                </div>
+                            </div>
+                            <div class="header-item__text">Ваша корзина пуста
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-menu">
+            <div class="wrapper">
+                <div class="bottom-menu-item">
+                    <a class="bottom-menu-item__title" href="javascript:void(0)">Каталог</a>
+                    <div class="catalog-popup">
+                        <div class="catalog-popup__content">
+                            <a class="catalog-popup__main-link" href="javascript:void(0)">Весь каталог</a>
+                            <div class="catalog-popup__level catalog-popup__level_1 default-skin">
+                                <div class="catalog-popup__section">
+                                    <div class="catalog-popup__section-title">A
+                                    </div>
+                                    <div class="catalog-popup__section-points">
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Audi</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">AC</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Ascari</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Aston Martin</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Austin Healey</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-popup__section">
+                                    <div class="catalog-popup__section-title">B
+                                    </div>
+                                    <div class="catalog-popup__section-points">
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">BAW</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Bentley</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">BMW</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Brilliance</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Bugatti</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-popup__section">
+                                    <div class="catalog-popup__section-title">C
+                                    </div>
+                                    <div class="catalog-popup__section-points">
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Cadillac</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Changan</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Chery</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Chevrolet</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Chrysler</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-popup__section">
+                                    <div class="catalog-popup__section-title">D
+                                    </div>
+                                    <div class="catalog-popup__section-points">
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Cadillac</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Changan</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Chery</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Chevrolet</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Chrysler</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-popup__section">
+                                    <div class="catalog-popup__section-title">E
+                                    </div>
+                                    <div class="catalog-popup__section-points">
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Eadillac</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Ehangan</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">EChery</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Ehevrolet</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Ehrysler</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-popup__section">
+                                    <div class="catalog-popup__section-title">F
+                                    </div>
+                                    <div class="catalog-popup__section-points">
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Fadillac</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Fhangan</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">FChery</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Fhevrolet</a>
+                                        <a class="catalog-popup__section-point" href="javascript:void(0)">Fhrysler</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalog-popup__level catalog-popup__level_2 default-skin">
+                            </div>
+                            <div class="catalog-popup__level catalog-popup__level_3 default-skin">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-menu-item">
+                    <a class="bottom-menu-item__title" href="javascript:void(0)">Доставка и оплата</a>
+                    <div class="popup-list popup-list_ship">
+                        <a class="popup-list__point" href="javascript:void(0)">Доставка и оплата</a>
+                        <a class="popup-list__point" href="javascript:void(0)">Оплата</a>
+                        <a class="popup-list__point" href="javascript:void(0)">Доставка</a>
+                        <a class="popup-list__point" href="javascript:void(0)">Гарантии</a>
+                        <a class="popup-list__point" href="javascript:void(0)">Как заказать</a>
+                    </div>
+                </div>
+                <div class="bottom-menu-item">
+                    <a class="bottom-menu-item__title" href="javascript:void(0)">Пункты выдачи</a>
+                </div>
+                <div class="bottom-menu-item">
+                    <a class="bottom-menu-item__title" href="javascript:void(0)">Услуги</a>
+                </div>
+                <div class="bottom-menu-item">
+                    <a class="bottom-menu-item__title" href="javascript:void(0)">Распродажа</a>
+                </div>
+                <div class="bottom-menu__phone">
+                    <div class="logo-icon">
+                        <img class="logo-icon__img" src="static/img/assets/logo-icon/call-icon.png" alt="call" width="14" height="14"
+                        title="" />
+                    </div>
+                    <div class="bottom-menu__phone-text">+7 (351) 75-03-114
+                    </div>
+                </div>
+                <form class="search-field bottom-menu__search search-field search-field_fix" action="#" method="POST">
+                    <input class="search-field__input" type="text" placeholder="Шины для Audi" />
+                    <input type="submit" />
+                    <div class="search-field__submit-img">
+                    </div>
+                </form>
+                <div class="header-item header-item_card bottom-menu__card header-item header-item_card-fix">
+                    <div class="logo-icon logo-icon_card header-item__logo header-item__logo_card">
+                        <img class="logo-icon__img" src="static/img/assets/logo-icon/card-icon.png" alt="card" width="14" height="14"
+                        title="" />
+                        <img class="logo-icon__img-active" src="static/img/assets/logo-icon/card-icon-active.png" alt="card"
+                        width="14" height="14" title="" />
+                    </div>
+                    <div class="header-item__right-block">
+                        <div class="header-item__title header-item__title_card">Корзина
+                            <div class="header-item__count-products">4
+                            </div>
+                        </div>
+                        <div class="header-item__text">Ваша корзина пуста
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sale-banner">
+            <div class="wrapper">
+                <div class="sale-banner__text">Финальные скидки на ремонт - до 30%
+                </div>
+            </div>
+        </div>
+        <div class="privilegies">
+            <div class="wrapper">
+                <div class="privilege-item privilegies__item">
+                    <img class="privilege-item__img privilege-item__img_car" src="static/img/assets/privilege-item/car.png" alt="40 моделей на складе"
+                    width="52" height="26" title="" />
+                    <img class="privilege-item__img privilege-item__img_active privilege-item__img_car" src="static/img/assets/privilege-item/car-active.png"
+                    alt="40 моделей на складе" width="52" height="26" title="" />
+                    <div class="privilege-item__text">40 моделей на складе
+                    </div>
+                </div>
+                <div class="privilege-item privilegies__item">
+                    <img class="privilege-item__img privilege-item__img_device" src="static/img/assets/privilege-item/device.png"
+                    alt="2 мил. шт. в наличии" width="52" height="26" title="" />
+                    <img class="privilege-item__img privilege-item__img_active privilege-item__img_device" src="static/img/assets/privilege-item/device-active.png"
+                    alt="2 мил. шт. в наличии" width="52" height="26" title="" />
+                    <div class="privilege-item__text">2 мил. шт. в наличии
+                    </div>
+                </div>
+                <div class="privilege-item privilegies__item">
+                    <img class="privilege-item__img privilege-item__img_ship" src="static/img/assets/privilege-item/ship.png"
+                    alt="Доставка по РФ" width="52" height="26" title="" />
+                    <img class="privilege-item__img privilege-item__img_active privilege-item__img_ship" src="static/img/assets/privilege-item/ship-active.png"
+                    alt="Доставка по РФ" width="52" height="26" title="" />
+                    <div class="privilege-item__text">Доставка по РФ
+                    </div>
+                </div>
+                <div class="privilege-item privilegies__item">
+                    <img class="privilege-item__img privilege-item__img_garanty" src="static/img/assets/privilege-item/garanty.png"
+                    alt="30 дней гарантия" width="52" height="26" title="" />
+                    <img class="privilege-item__img privilege-item__img_active privilege-item__img_garanty" src="static/img/assets/privilege-item/garanty-active.png"
+                    alt="30 дней гарантия" width="52" height="26" title="" />
+                    <div class="privilege-item__text">30 дней гарантия
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="select-section header__select-section">
+            <div class="select-section__wrapper-btn">
+                <span class="select-section__btn-toggle">Свернуть фильтр</span>
+            </div>
+            <div class="wrapper">
+                <div class="custom-select custom-select custom-select_1">
+                    <select class="custom-select__select">
+                        <option class="custom-select__default" data-display="1. Выберите марку">Ничего не выбрано
+                        </option>
+                        <option class="custom-select__value" value="BMW">BMW
+                        </option>
+                        <option class="custom-select__value" value="AUDI">AUDI
+                        </option>
+                        <option class="custom-select__value" value="Volkswagen">Volkswagen
+                        </option>
+                        <option class="custom-select__value" value="ВАЗ">ВАЗ
+                        </option>
+                        <option class="custom-select__value" value="ГАЗ">ГАЗ
+                        </option>
+                        <option class="custom-select__value" value="Aston Martin">Aston Martin
+                        </option>
+                    </select>
+                </div>
+                <div class="custom-select custom-select custom-select_2">
+                    <select class="custom-select__select">
+                        <option class="custom-select__default" data-display="2. Выберите модель">Ничего не выбрано
+                        </option>
+                        <option class="custom-select__value" value="A1">A1
+                        </option>
+                        <option class="custom-select__value" value="C-300">C-300
+                        </option>
+                        <option class="custom-select__value" value="Очень длинное название марки">Очень длинное название марки
+                        </option>
+                        <option class="custom-select__value" value="Очень длинное название марки">Очень длинное название марки
+                        </option>
+                        <option class="custom-select__value" value="Очень длинное название марки">Очень длинное название марки
+                        </option>
+                        <option class="custom-select__value" value="Очень длинное название марки">Очень длинное название марки
+                        </option>
+                    </select>
+                </div>
+                <div class="custom-select custom-select custom-select_3">
+                    <select class="custom-select__select">
+                        <option class="custom-select__default" data-display="3. Выберите группу">Ничего не выбрано
+                        </option>
+                        <option class="custom-select__value" value="Группа">Группа
+                        </option>
+                        <option class="custom-select__value" value="Большая ГРУППА ОЧЕНЬ БОЛЬШАЯ ГРУППА">Большая ГРУППА ОЧЕНЬ БОЛЬШАЯ ГРУППА
+                        </option>
+                        <option class="custom-select__value" value="Большая ГРУППА ОЧЕНЬ БОЛЬШАЯ ГРУППА">Большая ГРУППА ОЧЕНЬ БОЛЬШАЯ ГРУППА
+                        </option>
+                        <option class="custom-select__value" value="Большая ГРУППА ОЧЕНЬ БОЛЬШАЯ ГРУППА">Большая ГРУППА ОЧЕНЬ БОЛЬШАЯ ГРУППА
+                        </option>
+                        <option class="custom-select__value" value="Большая ГРУППА ОЧЕНЬ БОЛЬШАЯ ГРУППА">Большая ГРУППА ОЧЕНЬ БОЛЬШАЯ ГРУППА
+                        </option>
+                        <option class="custom-select__value" value="группа 6">группа 6
+                        </option>
+                    </select>
+                </div>
+                <div class="custom-select custom-select custom-select_4">
+                    <select class="custom-select__select">
+                        <option class="custom-select__default" data-display="4. Выберите деталь">Ничего не выбрано
+                        </option>
+                        <option class="custom-select__value" value="Деталь №1">Деталь №1
+                        </option>
+                        <option class="custom-select__value" value="Деталь №2">Деталь №2
+                        </option>
+                        <option class="custom-select__value" value="Деталь №3">Деталь №3
+                        </option>
+                        <option class="custom-select__value" value="Деталь №4">Деталь №4
+                        </option>
+                        <option class="custom-select__value" value="Деталь №5">Деталь №5
+                        </option>
+                        <option class="custom-select__value" value="Деталь №6 Деталь №6 Деталь №6">Деталь №6 Деталь №6 Деталь №6
+                        </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu header__mobile-menu">
+            <div class="mobile-menu__container">
+                <div class="mobile-menu__list">
+                    <div class="mobile-menu__top-list">
+                        <div class="mobile-menu__point mobile-menu__point_catalog">
+                            <a class="mobile-menu__link mobile-menu__link_catalog" href="javascript:void(0)">Каталог
+                                <div class="mobile-menu__sandwich">
+                                    <div class="mobile-menu__sandwich-line">
+                                    </div>
+                                    <div class="mobile-menu__sandwich-line">
+                                    </div>
+                                    <div class="mobile-menu__sandwich-line">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mobile-menu__point mobile-menu__point_auto">
+                            <a class="mobile-menu__link mobile-menu__link_auto" href="javascript:void(0)">Выкуп авто</a>
+                        </div>
+                        <div class="mobile-menu__point mobile-menu__point_ship">
+                            <a class="mobile-menu__link mobile-menu__link_ship" href="javascript:void(0)">Доставка и оплата</a>
+                        </div>
+                        <div class="mobile-menu__point mobile-menu__point_stock">
+                            <a class="mobile-menu__link mobile-menu__link_stock" href="javascript:void(0)">Пункты выдачи</a>
+                        </div>
+                        <div class="mobile-menu__point mobile-menu__point_services">
+                            <a class="mobile-menu__link mobile-menu__link_services" href="javascript:void(0)">Услуги</a>
+                        </div>
+                        <div class="mobile-menu__point mobile-menu__point_sale">
+                            <a class="mobile-menu__link mobile-menu__link_sale" href="javascript:void(0)">Распродажа</a>
+                        </div>
+                        <div class="mobile-menu__point mobile-menu__point_about">
+                            <a class="mobile-menu__link mobile-menu__link_about" href="javascript:void(0)">О магазине</a>
+                        </div>
+                        <div class="mobile-menu__point mobile-menu__point_order">
+                            <a class="mobile-menu__link mobile-menu__link_order" href="javascript:void(0)">Как заказать</a>
+                        </div>
+                        <div class="mobile-menu__point mobile-menu__point_contacts">
+                            <a class="mobile-menu__link mobile-menu__link_contacts" href="javascript:void(0)">Контакты</a>
+                        </div>
+                    </div>
+                    <div class="mobile-menu__bottom-list">
+                        <div class="mobile-menu__btns">
+                            <a class="msg-btn msg-btn_phone" href="tel:+73517503114">
+                                <img class="msg-btn__img" src="static/img/assets/msg-btn/call-answer.png" alt="phone" width="13"
+                                height="13" title="" />
+                                <span class="msg-btn__text">+7 (351) 75-03-114</span>
+                            </a>
+                            <a class="msg-btn msg-btn_viber" href="viber://add?number=7351750314">
+                                <img class="msg-btn__img" src="static/img/assets/msg-btn/viber.png" alt="viber" width="19" height="19"
+                                title="" />
+                                <span class="msg-btn__text">Напишите нам в Viber</span>
+                            </a>
+                            <a class="msg-btn msg-btn_whatsapp" href="whatsapp://send?phone=7351750314">
+                                <img class="msg-btn__img" src="static/img/assets/msg-btn/whatsapp.png" alt="whatsapp" width="19"
+                                height="19" title="" />
+                                <span class="msg-btn__text">Напишите нам в Whatsapp</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="catalog-mobile">
+                        <div class="catalog-mobile__container">
+                            <div class="catalog-mobile__lvl catalog-mobile__lvl_1">
+                                <div class="catalog-mobile__catalog-title">
+                                    <span>
+                                        <a href="javascript:void(0)">Назад</a>
+                                    </span>
+                                    <div>Каталог
+                                    </div>
+                                </div>
+                                <div class="catalog-mobile__catalog-list">
+                                    <a href="javascript:void(0)">AUDI</a>
+                                    <a href="javascript:void(0)">AC Cars</a>
+                                    <a href="javascript:void(0)">Ascari</a>
+                                    <a href="javascript:void(0)">Aston Martin</a>
+                                    <a href="javascript:void(0)">Austin Healey</a>
+                                    <a href="javascript:void(0)">BAW</a>
+                                    <a href="javascript:void(0)">Bentley</a>
+                                    <a href="javascript:void(0)">BMW</a>
+                                    <a href="javascript:void(0)">Brilliance</a>
+                                    <a href="javascript:void(0)">Bugatti</a>
+                                </div>
+                            </div>
+                            <div class="catalog-mobile__lvl catalog-mobile__lvl_2">
+                                <div class="catalog-mobile__catalog-title">
+                                    <span>
+                                        <a href="javascript:void(0)">Назад</a>
+                                    </span>
+                                    <div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalog-mobile__lvl catalog-mobile__lvl_3">
+                                <div class="catalog-mobile__catalog-title">
+                                    <span>
+                                        <a href="javascript:void(0)">Назад</a>
+                                    </span>
+                                    <div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-menu__paranja">
+                </div>
+            </div>
+        </div>
+        <div class="btn-menu header__btn-menu">
+            <div class="btn-menu__line btn-menu__line_1">
+            </div>
+            <div class="btn-menu__line btn-menu__line_2">
+            </div>
+            <div class="btn-menu__line btn-menu__line_3">
+            </div>
+        </div>
+    </header>
+    <div class="p-cart">
+        <div class="wrapper">
+            <div class="breadcrumbs">
+                <a href="javascript:void(0)">Главная</a>
+            </div>
+            <h1>Корзина</h1>
+            <p>При покупке на сумму от 5000 предоставляется едино разовая скидка 5%. До 20.08.2017 скидка на весь пластик 15%</p>
+            <div class="p-cart__main">
+                <div class="p-cart__select-tab">
+                    <a href="javascript:void(0)">
+                        <span>Шаг №1</span>
+                        <span>Выбор деталей</span>
+                    </a>
+                    <a href="javascript:void(0)">
+                        <span>Шаг №2</span>
+                        <span>Оформление заказа</span>
+                    </a>
+                </div>
+                <div>
+                    <a class="p-cart__buy-continue" href="javascript:void(0)">Продолжить покупки</a>
+                    <a class="p-cart__clear-cart" href="javascript:void(0)">
+                        Очистить корзину
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 15 15">
+                            <path d="M3.25,3.25l8.5,8.5M11.75,3.25l-8.5,8.5"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main-tabs">
+            <div>
+                <div class="cart-list">
+                    <div class="wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Производитель / артикул</td>
+                                    <td>Наименование / Износ</td>
+                                    <td>Вес (кг)</td>
+                                    <td>Количество</td>
+                                    <td>Цена</td>
+                                    <td>Сумма</td>
+                                    <td>Удалить</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span>Dodge</span>
+                                        <a href="javascript:void(0)">C-453455</a>
+                                    </td>
+                                    <td>
+                                        <div>Yokohama W.Drive V902 315/35 R2,</div>
+                                        <div>
+                                            <span>Износ:&nbsp;</span>
+                                            <span>7</span>
+                                        </div>
+                                    </td>
+                                    <td>1000</td>
+                                    <td>
+                                        <SELECT>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                            <option>10</option>
+                                        </SELECT>
+                                    </td>
+                                    <td>100.000</td>
+                                    <td>1.000.000</td>
+                                    <td>
+                                        <a class="close" href="javascript:void(0)">
+                                            <img src="static/img/assets/cart-list/close.png" width="22" height="22" alt="close"
+                                            />
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>Audi</span>
+                                        <a href="javascript:void(0)">B-445567</a>
+                                    </td>
+                                    <td>
+                                        <div>Левая передняя дверь,</div>
+                                        <div>
+                                            <span>Износ:&nbsp;</span>
+                                            <span>5</span>
+                                        </div>
+                                    </td>
+                                    <td>50</td>
+                                    <td>
+                                        <SELECT>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                            <option>10</option>
+                                        </SELECT>
+                                    </td>
+                                    <td>5.000</td>
+                                    <td>2.000</td>
+                                    <td>
+                                        <a class="close" href="javascript:void(0)">
+                                            <img src="static/img/assets/cart-list/close.png" width="22" height="22" alt="close"
+                                            />
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>Mercedes-Benz</span>
+                                        <a href="javascript:void(0)">Q-44556733235</a>
+                                    </td>
+                                    <td>
+                                        <div>Поводок стеклоочистителя передний, правый на BMW 1 F20 2011-2017 г.в.,</div>
+                                        <div>
+                                            <span>Износ:&nbsp;</span>
+                                            <span>1</span>
+                                        </div>
+                                    </td>
+                                    <td>100</td>
+                                    <td>
+                                        <SELECT>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                            <option>10</option>
+                                        </SELECT>
+                                    </td>
+                                    <td>13.000</td>
+                                    <td>7.000</td>
+                                    <td>
+                                        <a class="close" href="javascript:void(0)">
+                                            <img src="static/img/assets/cart-list/close.png" width="22" height="22" alt="close"
+                                            />
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="p-cart__cart-sum">
+                    <div class="wrapper">
+                        <div class="left-side">
+                            <div class="id-input">
+                                <div class="id-input__title">
+                                    <div class="question">?
+                                        <div class="question-popup">При самостоятельном подборе автомобильных комплектующих рекомендуем использовать.</div>
+                                    </div>
+                                    <span>ID код партнера:</span>
+                                </div>
+                                <div class="id-input__input-block" method="GET" action="javascript:void(0)">
+                                    <input type="number" required="required" name="id" />
+                                    <input type="submit" required="required" value="Применить" />
+                                </div>
+                                <div class="id-input__sum-block">
+                                    <div>
+                                        <span>Общее количество деталей:&nbsp;</span>
+                                        <span>8</span>
+                                    </div>
+                                    <div>
+                                        <span>Общий вес:&nbsp;</span>
+                                        <span>1150 кг</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-side">
+                            <div class="sum-block">
+                                <div class="sale">
+                                    <span>Скидка:&nbsp;</span>
+                                    <span>20</span>
+                                </div>
+                                <div class="economy">
+                                    <span>Экономия:&nbsp;</span>
+                                    <span>100.444</span>
+                                </div>
+                                <div class="sum">
+                                    <span>Сумма заказа:&nbsp;</span>
+                                    <span>1.009.000</span>
+                                </div>
+                            </div>
+                            <a class="btn btn_submit-order" href="javascript:void(0)">
+                                <span>Оформить заказ</span>
+                                <img src="static/img/assets/btn/arrow-white.png" alt="arrow" width="15"
+                                height="11" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="wrapper">
+                    <form class="ship-selector" method="POST" action="javascript:void(0)">
+                        <div class="ship-selector__top-block">
+                            <div class="ship-selector__title">Способ получения:
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="method" value="1" />
+                                    <span>Самовывоз</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="method" value="1" />
+                                    <span>Транспортная компания</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="method" value="1" />
+                                    <span>Доставка курьером</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="ship-selector__bottom-block">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="person" value="1" />
+                                    <span>Физическое лицо</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="person" value="2" />
+                                    <span>Юридическое лицо</span>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="pickup">
+                        <div class="pickup__title">Самовывоз
+                        </div>
+                        <div class="items">
+                            <div class="pickup__item">
+                                <div class="adress">
+                                    <A class="adress" href="javascript:void(0)">Москва, ул. Абельмановская, дом 90</A>
+                                </div>
+                                <div class="times">
+                                    <div>
+                                        <span>Будни:&nbsp;</span>
+                                        <span>с 8.00 до 18.00</span>
+                                    </div>
+                                    <div>
+                                        <span>Выходные:&nbsp;</span>
+                                        <span>с 14.00 до 18.00</span>
+                                    </div>
+                                </div>
+                                <a class="btn btn_pickup" href="javascript:void(0)">Выбрать</a>
+                            </div>
+                            <div class="pickup__item">
+                                <div class="adress">
+                                    <A class="adress" href="javascript:void(0)">Советская, ул.Вагжанова, дом 17</A>
+                                </div>
+                                <div class="times">
+                                    <div>
+                                        <span>Будни:&nbsp;</span>
+                                        <span>с 8.00 до 18.00</span>
+                                    </div>
+                                    <div>
+                                        <span>Выходные:&nbsp;</span>
+                                        <span>с 14.00 до 18.00</span>
+                                    </div>
+                                </div>
+                                <a class="btn btn_pickup" href="javascript:void(0)">Выбрать</a>
+                            </div>
+                            <div class="pickup__item">
+                                <div class="adress">
+                                    <A class="adress" href="javascript:void(0)">Красноборск, ул. Башиловская, дом 22</A>
+                                </div>
+                                <div class="times">
+                                    <div>
+                                        <span>Будни:&nbsp;</span>
+                                        <span>с 8.00 до 18.00</span>
+                                    </div>
+                                    <div>
+                                        <span>Выходные:&nbsp;</span>
+                                        <span>с 14.00 до 18.00</span>
+                                    </div>
+                                </div>
+                                <a class="btn btn_pickup" href="javascript:void(0)">Выбрать</a>
+                            </div>
+                            <div class="pickup__item">
+                                <div class="adress">
+                                    <A class="adress" href="javascript:void(0)">Знаменск, ул. Басовская, дом 35</A>
+                                </div>
+                                <div class="times">
+                                    <div>
+                                        <span>Будни:&nbsp;</span>
+                                        <span>с 8.00 до 18.00</span>
+                                    </div>
+                                    <div>
+                                        <span>Выходные:&nbsp;</span>
+                                        <span>с 14.00 до 18.00</span>
+                                    </div>
+                                </div>
+                                <a class="btn btn_pickup" href="javascript:void(0)">Выбрать</a>
+                            </div>
+                            <div class="pickup__item">
+                                <div class="adress">
+                                    <A class="adress" href="javascript:void(0)">Камень-на-Оби, ул. Лидии Базановой, дом 42</A>
+                                </div>
+                                <div class="times">
+                                    <div>
+                                        <span>Будни:&nbsp;</span>
+                                        <span>с 8.00 до 18.00</span>
+                                    </div>
+                                    <div>
+                                        <span>Выходные:&nbsp;</span>
+                                        <span>с 14.00 до 18.00</span>
+                                    </div>
+                                </div>
+                                <a class="btn btn_pickup" href="javascript:void(0)">Выбрать</a>
+                            </div>
+                            <div class="pickup__item">
+                                <div class="adress">
+                                    <A class="adress" href="javascript:void(0)">Дзержинск, ул. Лидии Базановой, дом 98</A>
+                                </div>
+                                <div class="times">
+                                    <div>
+                                        <span>Будни:&nbsp;</span>
+                                        <span>с 8.00 до 18.00</span>
+                                    </div>
+                                    <div>
+                                        <span>Выходные:&nbsp;</span>
+                                        <span>с 14.00 до 18.00</span>
+                                    </div>
+                                </div>
+                                <a class="btn btn_pickup" href="javascript:void(0)">Выбрать</a>
+                            </div>
+                            <div class="pickup__item">
+                                <div class="adress">
+                                    <A class="adress" href="javascript:void(0)">Пермь, ул. Александрова Завидова, дом 51</A>
+                                </div>
+                                <div class="times">
+                                    <div>
+                                        <span>Будни:&nbsp;</span>
+                                        <span>с 8.00 до 18.00</span>
+                                    </div>
+                                    <div>
+                                        <span>Выходные:&nbsp;</span>
+                                        <span>с 14.00 до 18.00</span>
+                                    </div>
+                                </div>
+                                <a class="btn btn_pickup" href="javascript:void(0)">Выбрать</a>
+                            </div>
+                            <div class="pickup__item">
+                                <div class="adress">
+                                    <A class="adress" href="javascript:void(0)">Левокумское, ул. Садовая, дом 97</A>
+                                </div>
+                                <div class="times">
+                                    <div>
+                                        <span>Будни:&nbsp;</span>
+                                        <span>с 8.00 до 18.00</span>
+                                    </div>
+                                    <div>
+                                        <span>Выходные:&nbsp;</span>
+                                        <span>с 14.00 до 18.00</span>
+                                    </div>
+                                </div>
+                                <a class="btn btn_pickup" href="javascript:void(0)">Выбрать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="pickup-form" method="POST" action="javascript:void(0)">
+                        <div class="pickup-form__title">Самовывоз
+                        </div>
+                        <label class="city">
+                            <span>Заберу отсюда</span>
+                            <select name="city" required="required">
+                                <option value="msk">Москва</option>
+                                <option value="spb">Санкт-Петербург</option>
+                                <option value="ekb">Екатеринбург</option>
+                                <option value="chl">Челябинск</option>
+                                <option value="smr">Самара</option>
+                                <option value="kzn">Казань</option>
+                                <option value="sci">Сочи</option>
+                                <option value="vld">Владивосток</option>
+                            </select>
+                        </label>
+                        <label class="adress">
+                            <span>Адрес</span>
+                            <select name="adress" required="required">
+                                <option value="90">ул. Абельмановская, дом 90</option>
+                                <option value="91">ул. Абельмановская, дом 91</option>
+                                <option value="92">ул. Абельмановская, дом 92</option>
+                                <option value="93">ул. Абельмановская, дом 93</option>
+                                <option value="94">ул. Абельмановская, дом 94</option>
+                                <option value="95">ул. Абельмановская, дом 95</option>
+                                <option value="96">ул. Абельмановская, дом 96</option>
+                                <option value="97">ул. Абельмановская, дом 97</option>
+                            </select>
+                        </label>
+                        <label class="name">
+                            <span>Имя</span>
+                            <input type="text" name="name" required="required" minlength="2" />
+                        </label>
+                        <label class="phone">
+                            <span>Телефон</span>
+                            <input type="tel" name="phone" required="required" />
+                        </label>
+                        <label class="id">
+                            <span>
+                                <div class="question">?
+                                    <div class="question-popup">Здесь определенно будет какой то текст</div>
+                                </div>
+                                <span>ID партнера (для зарегистрированных клиентов)</span>
+                            </span>
+                            <input type="number" required="required" name="id" placeholder="567658869079" />
+                        </label>
+                        <label class="textarea">
+                            <span>Комментарий</span>
+                            <textarea name="textarea" required="required"></textarea>
+                        </label>
+                    </form>
+                    <div class="p-cart__order-list">
+                        <div class="title">Ваш заказ №6733700</div>
+                        <div class="cart-list">
+                            <div class="wrapper">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <td>Производитель / артикул</td>
+                                            <td>Наименование / Износ</td>
+                                            <td>Вес (кг)</td>
+                                            <td>Количество</td>
+                                            <td>Цена</td>
+                                            <td>Сумма</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <span>Dodge</span>
+                                                <a href="javascript:void(0)">C-453455</a>
+                                            </td>
+                                            <td>
+                                                <div>Yokohama W.Drive V902 315/35 R2,</div>
+                                                <div>
+                                                    <span>Износ:&nbsp;</span>
+                                                    <span>7</span>
+                                                </div>
+                                            </td>
+                                            <td>1000</td>
+                                            <td>1
+                                            </td>
+                                            <td>100.000</td>
+                                            <td>1.000.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span>Audi</span>
+                                                <a href="javascript:void(0)">B-445567</a>
+                                            </td>
+                                            <td>
+                                                <div>Левая передняя дверь,</div>
+                                                <div>
+                                                    <span>Износ:&nbsp;</span>
+                                                    <span>5</span>
+                                                </div>
+                                            </td>
+                                            <td>50</td>
+                                            <td>1
+                                            </td>
+                                            <td>5.000</td>
+                                            <td>2.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span>Mercedes-Benz</span>
+                                                <a href="javascript:void(0)">Q-44556733235</a>
+                                            </td>
+                                            <td>
+                                                <div>Поводок стеклоочистителя передний, правый на BMW 1 F20 2011-2017 г.в.,</div>
+                                                <div>
+                                                    <span>Износ:&nbsp;</span>
+                                                    <span>1</span>
+                                                </div>
+                                            </td>
+                                            <td>100</td>
+                                            <td>1
+                                            </td>
+                                            <td>13.000</td>
+                                            <td>7.000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="p-cart__cart-sum">
+                            <div class="wrapper">
+                                <div class="left-side">
+                                    <div class="id-input">
+                                        <div class="id-input__sum-block">
+                                            <div>
+                                                <span>Общее количество деталей:&nbsp;</span>
+                                                <span>8</span>
+                                            </div>
+                                            <div>
+                                                <span>Общий вес:&nbsp;</span>
+                                                <span>1150 кг</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-side">
+                                    <div class="sum-block">
+                                        <div class="sale">
+                                            <span>Скидка:&nbsp;</span>
+                                            <span>20</span>
+                                        </div>
+                                        <div class="economy">
+                                            <span>Экономия:&nbsp;</span>
+                                            <span>100.444</span>
+                                        </div>
+                                        <div class="sum">
+                                            <span>Сумма заказа:&nbsp;</span>
+                                            <span>1.009.000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="p-cart__info-block">
+                <div class="mark">!</div>
+                <div>При самостоятельном подборе автомобильных комплектующих рекомендуем использовать возможность проверки вашего
+                    заказа на применимость к автомобилю. В процессе оформления заказа Вам будет предложено заполнить данные
+                    автомобиля для которого предназначены запчасти. От правильности и полноты заполнения</div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__col footer__col_1">
+                <div class="footer__copyright">© ООО «Zprus.ru», 2017
+                </div>
+                <div class="socials">
+                    <a class="socials__social socials__social socials__social_fb" href="javascript:void(0)">
+                        <img class="socials__img" src="static/img/assets/socials/fb.png" width="5" height="11" alt="fb" title=""
+                        />
+                    </a>
+                    <a class="socials__social socials__social socials__social_tw" href="javascript:void(0)">
+                        <img class="socials__img" src="static/img/assets/socials/tw.png" width="11" height="9" alt="tw" title=""
+                        />
+                    </a>
+                    <a class="socials__social socials__social socials__social_yt" href="javascript:void(0)">
+                        <img class="socials__img" src="static/img/assets/socials/yt.png" width="9" height="11" alt="yt" title=""
+                        />
+                    </a>
+                    <a class="socials__social socials__social socials__social_vk" href="javascript:void(0)">
+                        <img class="socials__img" src="static/img/assets/socials/vk.png" width="15" height="8" alt="vk" title=""
+                        />
+                    </a>
+                </div>
+            </div>
+            <div class="footer__col footer__col_2">
+                <a class="footer__link" href="javascript:void(0)">Шины б/у</a>
+                <a class="footer__link footer__link_bt" href="javascript:void(0)">Поставщикам</a>
+                <a class="footer__link footer__link_bt" href="javascript:void(0)">Покупателям</a>
+            </div>
+            <div class="footer__col footer__col_3">
+                <a class="footer__link" href="javascript:void(0)">Поставщикам</a>
+                <a class="footer__link" href="javascript:void(0)">Покупателям</a>
+            </div>
+            <div class="footer__col footer__col_4">
+                <a class="footer__link" href="javascript:void(0)">Выкуп автомобиля</a>
+                <a class="footer__link" href="javascript:void(0)">Техническая информация</a>
+                <a class="footer__link" href="javascript:void(0)">Заказ автозапчастей</a>
+            </div>
+            <div class="footer__col footer__col_5">
+                <div class="header-item header-item_footer footer__phone">
+                    <div class="logo-icon">
+                        <img class="logo-icon__img" src="static/img/assets/logo-icon/call-icon.png" alt="call" width="14" height="14"
+                        title="" />
+                    </div>
+                    <div class="header-item__right-block header-item__right-block_phone">
+                        <div class="header-item__title header-item__title_phone">+7 (351) 75-03-114
+                        </div>
+                        <a class="header-item__text header-item__text_phone" href="javascript:void(0)">Заказать звонок</a>
+                        <div class="header-item__fly-messengers">
+                            <div class="header-item__messenger header-item__messenger_viber">Viber
+                            </div>
+                            <div class="header-item__messenger header-item__messenger_whatsapp">Whatsapp
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tian">
+                    <img class="tian__img" src="static/img/assets/tian/tian.png" width="30" height="30" alt="tian" title="" />
+                    <div class="tian__wrapper">
+                        <div class="tian__head">Интернет-агенство Tian Group:
+                        </div>
+                        <div class="tian__bottom">
+                            <a class="tian__link" href="javascript:void(0)">создание</a>
+                            <span>&nbsp;и&nbsp;</span>
+                            <a class="tian__link" href="javascript:void(0)">продвижение сайтов</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrapper_t">
+            <div class="footer__col-t footer__col-t_1">
+                <div class="footer__copyright">© ООО «Zprus.ru», 2017
+                </div>
+                <div class="socials">
+                    <a class="socials__social socials__social socials__social_fb" href="javascript:void(0)">
+                        <img class="socials__img" src="static/img/assets/socials/fb.png" width="5" height="11" alt="fb" title=""
+                        />
+                    </a>
+                    <a class="socials__social socials__social socials__social_tw" href="javascript:void(0)">
+                        <img class="socials__img" src="static/img/assets/socials/tw.png" width="11" height="9" alt="tw" title=""
+                        />
+                    </a>
+                    <a class="socials__social socials__social socials__social_yt" href="javascript:void(0)">
+                        <img class="socials__img" src="static/img/assets/socials/yt.png" width="9" height="11" alt="yt" title=""
+                        />
+                    </a>
+                    <a class="socials__social socials__social socials__social_vk" href="javascript:void(0)">
+                        <img class="socials__img" src="static/img/assets/socials/vk.png" width="15" height="8" alt="vk" title=""
+                        />
+                    </a>
+                </div>
+            </div>
+            <div class="footer__col-t footer__col-t_2">
+                <div class="footer__col-t-head">
+                    <div class="footer__sub footer__sub_1">
+                        <a class="footer__link" href="javascript:void(0)">Шины б/у</a>
+                        <a class="footer__link footer__link_bt" href="javascript:void(0)">Поставщикам</a>
+                    </div>
+                    <div class="footer__sub footer__sub_2">
+                        <a class="footer__link" href="javascript:void(0)">Выкуп автомобиля</a>
+                        <a class="footer__link footer__link_bt" href="javascript:void(0)">Техническая информация</a>
+                    </div>
+                    <div class="footer__sub footer__sub_3">
+                        <a class="footer__link" href="javascript:void(0)">Покупателям</a>
+                        <a class="footer__link" href="javascript:void(0)">Заказ автозапчастей</a>
+                    </div>
+                </div>
+                <div class="footer__col-t-middle">
+                    <div class="footer__full-mode">
+                        <a href="javascript:void(0)">Перейти в полную версию сайта</a>
+                    </div>
+                    <div class="header-item header-item_footer footer__phone">
+                        <div class="logo-icon">
+                            <img class="logo-icon__img" src="static/img/assets/logo-icon/call-icon.png" alt="call" width="14"
+                            height="14" title="" />
+                        </div>
+                        <div class="header-item__right-block header-item__right-block_phone">
+                            <div class="header-item__title header-item__title_phone">+7 (351) 75-03-114
+                            </div>
+                            <a class="header-item__text header-item__text_phone" href="javascript:void(0)">Заказать звонок</a>
+                            <div class="header-item__fly-messengers">
+                                <div class="header-item__messenger header-item__messenger_viber">Viber
+                                </div>
+                                <div class="header-item__messenger header-item__messenger_whatsapp">Whatsapp
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__col-t-bottom">
+                    <div class="tian">
+                        <img class="tian__img" src="static/img/assets/tian/tian.png" width="30" height="30" alt="tian" title=""
+                        />
+                        <div class="tian__wrapper">
+                            <div class="tian__head">Интернет-агенство Tian Group:
+                            </div>
+                            <div class="tian__bottom">
+                                <a class="tian__link" href="javascript:void(0)">создание</a>
+                                <span>&nbsp;и&nbsp;</span>
+                                <a class="tian__link" href="javascript:void(0)">продвижение сайтов</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrapper_m">
+            <div class="footer__top-m">
+                <div class="footer__copyright">© ООО «Zprus.ru», 2017
+                </div>
+                <div class="socials">
+                    <a class="socials__social socials__social socials__social_fb" href="javascript:void(0)">
+                        <img class="socials__img" src="static/img/assets/socials/fb.png" width="5" height="11" alt="fb" title=""
+                        />
+                    </a>
+                    <a class="socials__social socials__social socials__social_tw" href="javascript:void(0)">
+                        <img class="socials__img" src="static/img/assets/socials/tw.png" width="11" height="9" alt="tw" title=""
+                        />
+                    </a>
+                    <a class="socials__social socials__social socials__social_yt" href="javascript:void(0)">
+                        <img class="socials__img" src="static/img/assets/socials/yt.png" width="9" height="11" alt="yt" title=""
+                        />
+                    </a>
+                    <a class="socials__social socials__social socials__social_vk" href="javascript:void(0)">
+                        <img class="socials__img" src="static/img/assets/socials/vk.png" width="15" height="8" alt="vk" title=""
+                        />
+                    </a>
+                </div>
+            </div>
+            <div class="footer__list-m">
+                <div class="footer__point">
+                    <a class="footer__point-link" href="javascript:void(0)">Шины б/у</a>
+                </div>
+                <div class="footer__point">
+                    <a class="footer__point-link" href="javascript:void(0)">Поставщикам</a>
+                </div>
+                <div class="footer__point">
+                    <a class="footer__point-link" href="javascript:void(0)">Покупателям</a>
+                </div>
+                <div class="footer__point">
+                    <a class="footer__point-link" href="javascript:void(0)">Выкуп автомобиля</a>
+                </div>
+                <div class="footer__point">
+                    <a class="footer__point-link" href="javascript:void(0)">Техническая информация</a>
+                </div>
+                <div class="footer__point">
+                    <a class="footer__point-link" href="javascript:void(0)">Заказ автозапчастей</a>
+                </div>
+            </div>
+            <div class="footer__bottom-m">
+                <div class="footer__call-btn">
+                    <div>Позвоните нам
+                    </div>
+                    <div>
+                        <img src="static/img/assets/footer/call-answer.png" alt="call" width="11" height="11" title="" />+7 (351) 75-03-114
+                    </div>
+                    <a href="tel:+73517503114"></a>
+                </div>
+                <div class="footer__full-mode footer__full-mode_m">
+                    <a href="javascript:void(0)">Перейти в полную версию сайта</a>
+                </div>
+                <div class="tian">
+                    <img class="tian__img" src="static/img/assets/tian/tian.png" width="30" height="30" alt="tian" title="" />
+                    <div class="tian__wrapper">
+                        <div class="tian__head">Интернет-агенство Tian Group:
+                        </div>
+                        <div class="tian__bottom">
+                            <a class="tian__link" href="javascript:void(0)">создание</a>
+                            <span>&nbsp;и&nbsp;</span>
+                            <a class="tian__link" href="javascript:void(0)">продвижение сайтов</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="popup">
+        <div class="popup__paranja">
+        </div>
+        <div class="call-form popup__call-form popup-form">
+            <div class="call-form__head">
+                <div class="call-form__title">Заказать Звонок
+                </div>
+                <div class="call-form__text">Отправьте сообщение, и мы перезвоним вам в течение 5 минут или Вы можете перезвонить нам по телефону 8(800)
+                    000-000
+                </div>
+            </div>
+            <form class="call-form__form" action="#" method="POST">
+                <label class="call-form__label">
+                    <span class="call-form__label-title">Имя</span>
+                    <input class="call-form__input call-form__input_name" type="text" required="required" name="name"
+                    />
+                </label>
+                <label class="call-form__label">
+                    <span class="call-form__label-title">Ваш телефон</span>
+                    <input class="call-form__input call-form__input_phone" type="tel" placeholder="+7-(___)-___-__-__"
+                    required="required" name="phone" />
+                </label>
+                <label class="call-form__label call-form__label_agree">
+                    <input class="call-form__checkbox" type="checkbox" required="required" name="checkbox" />
+                    <div class="call-form__checkbox-view">
+                    </div>
+                    <div class="call-form__checkbox-text">
+                        <span>Согласен на&nbsp;
+                            <a class="call-form__agree-link" href="javascript:void(0)">условия обработки персональных данных</a>
+                        </span>
+                    </div>
+                </label>
+                <input class="call-form__submit btn btn_submit" type="submit" />
+            </form>
+            <a class="call-form__close close-popup" href="javascript:void(0)">
+                <span class="call-form__close-wrapper"></span>
+            </a>
+        </div>
+    </div>
+    <script src="static/js/vendor.min.js"></script>
+    <script src="static/js/main.min.js"></script>
+</body>
+
+</html>
